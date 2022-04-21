@@ -7,7 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import Searchbar from '../components/searchbar/Searchbar';
 import ImageGallery from '../components/imageGallery/ImageGallery.jsx';
 import PicturePangingView from '../components/imageGallery/PicturePangingView';
-import { Route, useHistory, Switch } from 'react-router-dom';
+import { Route, useHistory } from 'react-router-dom';
 import Photo from './Photo';
 
 const Container = styled.div`
