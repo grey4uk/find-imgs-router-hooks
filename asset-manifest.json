@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/find-imgs-router-hooks/static/css/main.039bf95e.css",
+    "main.js": "/find-imgs-router-hooks/static/js/main.d718774f.js",
+    "static/media/pandingImage.jpg": "/find-imgs-router-hooks/static/media/pandingImage.7101ecd8ee2f0d055932.jpg",
+    "static/media/error.jpg": "/find-imgs-router-hooks/static/media/error.3d4879be0cd2b2db641a.jpg",
+    "index.html": "/find-imgs-router-hooks/index.html",
+    "main.039bf95e.css.map": "/find-imgs-router-hooks/static/css/main.039bf95e.css.map",
+    "main.d718774f.js.map": "/find-imgs-router-hooks/static/js/main.d718774f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.039bf95e.css",
+    "static/js/main.d718774f.js"
+  ]
+}
