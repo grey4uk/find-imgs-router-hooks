@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from 'react';
+import React, { useState,useEffect,useCallback } from 'react';
 import styled from 'styled-components';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -26,11 +26,11 @@ function App() {
 
   const history=useHistory();
 
-  const redirectToPictures=()=>history.push('/images');
+  const redirectToPictures=useCallback(()=>history.push('/images'),[history]);
 
   useEffect(() => {
-        picture&&redirectToPictures()
-  }, [picture])
+        redirectToPictures()
+  }, [redirectToPictures])
   
 
   return (
