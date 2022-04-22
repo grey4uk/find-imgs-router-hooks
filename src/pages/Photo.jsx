@@ -2,13 +2,16 @@
 import Modal from '../components/modal/Modal';
 import { ModalImg, ModalBtnClose } from '../components/modal/Modal.styled';
 import { AiOutlineClose } from 'react-icons/ai';
-import { useLocation,useHistory } from 'react-router-dom';
+import { useLocation,useHistory,useRouteMatch } from 'react-router-dom';
+
 
 
 const Photo = () => {
         const {state:{alt},search}=useLocation();
+        const match=useRouteMatch()
         const history=useHistory();
         let large='';
+        console.log('match :>> ', match);
 
 let searchParams = new URLSearchParams(search);
 //Iterate the search parameters.

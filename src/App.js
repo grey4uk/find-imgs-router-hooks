@@ -4,7 +4,7 @@ import Main from './pages/Main';
 const App = () => {
   return (
     <Switch>
-      <Route path='/' >
+      <Route path='/'>
         <Main/>
       </Route>
       <Redirect to='/'/>

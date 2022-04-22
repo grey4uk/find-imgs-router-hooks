@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { ImageGalleryItem, GalleryImage } from './ImageGalleryItem.styled';
-import { Link } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 
 const ImageGalleryItems = ({
   webformatURL,
@@ -9,12 +9,9 @@ const ImageGalleryItems = ({
   largeImageURL,
   id
 }) => {
+
   return (
     <ImageGalleryItem
-      onClick={() => {
-        // onFetch(largeImageURL, tags);
-        // onClose();
-      }}
     >
       <Link to={{pathname:`/images/${id}`,search:`?large=${largeImageURL}` ,state:{alt:tags}}}>
       <GalleryImage src={webformatURL} alt={tags} />

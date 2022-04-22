@@ -26,7 +26,7 @@ function App() {
 
   const history=useHistory();
 
-  const redirectToPictures=useCallback(()=>history.push('/images'),[history]);
+  const redirectToPictures=useCallback(()=>picture&&history.push(`/images`),[history,picture]);
 
   useEffect(() => {
         redirectToPictures()

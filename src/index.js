@@ -8,7 +8,7 @@ import App from './App';
 ReactDOM.render(
   <React.StrictMode>
     <GlobalStyle />
-    <BrowserRouter>
+    <BrowserRouter basename="/find-imgs-router-hooks/">
     <App />
     </BrowserRouter>
   </React.StrictMode>,
